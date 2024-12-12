@@ -7,12 +7,13 @@
     padding: 0;
 }
 
+/* Stuff Carried over from each file */
 :root {
     --bg-color: #BFBFBF;
-    --accent_1: #F24405;
-    --accent_2: #D9896C;
-    --accent_3: #F23005;
-    --accent_4: #F26849;
+    --accent_1: #4C5958;
+    --accent_2: #8AA6A3;
+    --accent_3: #10403B;
+    --accent_4: #127369;
 }
 
 body {
@@ -47,4 +48,22 @@ ul li a {
 .nav-left, .nav-right {
     display: flex; /* Makes the list items inline */
     gap: 20px; /* Adds spacing between nav links */
+}
+
+/* Start of each file */
+.section1 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1-contents {
+    margin: 150px;
+}
+
+.section1 h3 {
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: lighter;
 }
