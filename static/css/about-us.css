@@ -8,6 +8,7 @@
 }
 
 /* Stuff Carried over from each file */
+/* Navigation bar */
 :root {
     --bg-color: #BFBFBF;
     --accent_1: #4C5958;
@@ -18,7 +19,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--bg-color);
 }
 
 li {
@@ -48,6 +48,12 @@ ul li a {
 .nav-left, .nav-right {
     display: flex; /* Makes the list items inline */
     gap: 20px; /* Adds spacing between nav links */
+}
+
+/* Footer */
+footer {
+    height: 280px;
+    background-color: var(--bg-color);
 }
 
 /* Start of each file */
