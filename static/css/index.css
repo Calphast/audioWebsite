@@ -21,6 +21,7 @@ body {
     background-color: var(--bg-color);
 }
 
+
 li {
     list-style: none;
 }
@@ -51,3 +52,17 @@ ul li a {
 }
 
 /* Start of each file */
+.product1-container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inline-flex;
+}
+
+.product-one-link {
+    padding-left: 70% !important;
+    margin-right: 100% !important;
+}
+
+.product-info p{
+    margin-left: 110% !important;
+}
